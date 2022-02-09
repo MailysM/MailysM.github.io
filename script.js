@@ -73,6 +73,7 @@ function setNeighboorBomb(i,j){
 		if(i==0){
 		   cubes[i][j-1].addBombNeighboor();
         	}
+	}
         if(j<size-1){
             cubes[i+1][j+1].addBombNeighboor();
 	    if(i==0){
